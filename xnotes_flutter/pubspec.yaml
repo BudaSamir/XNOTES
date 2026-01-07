@@ -1,0 +1,58 @@
+name: xnotes_flutter
+description: A new Flutter project with Serverpod.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '^3.8.0'
+  flutter: '^3.32.0'
+
+dependencies:
+
+  # Frontend Framework dependencies
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  flutter_hooks: ^0.21.3+1
+  bloc: ^9.2.0
+  flutter_bloc: ^9.1.1
+  shared_preferences: ^2.5.4
+  get_it: ^9.2.0
+  flutter_secure_storage: ^10.0.0
+
+
+
+  # Communication Between Frontend and Backend
+  xnotes_client:
+    path: ../xnotes_client
+
+  xnotes_server:
+    path: ../xnotes_server
+
+  # Backend Framework dependencies
+  serverpod_flutter: ^3.1.1
+  serverpod_auth_idp_flutter: ^3.1.1
+
+
+dev_dependencies:
+  flutter_lints: '>=3.0.0 <7.0.0'
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/config.json
+
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
