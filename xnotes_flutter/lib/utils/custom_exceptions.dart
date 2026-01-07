@@ -101,6 +101,18 @@ class UnknownException extends AppException {
   bool get isRetryable => true;
 }
 
+/// Validation errors for user input or data integrity checks
+class ValidationException extends AppException {
+  ValidationException({
+    required super.message,
+    super.originalError,
+    super.stackTrace,
+  });
+
+  /// Validation errors are not retryable
+  bool get isRetryable => false;
+}
+
 /// Extension to check if exception is retryable
 extension ExceptionRetryable on Exception {
   bool get isRetryable {
