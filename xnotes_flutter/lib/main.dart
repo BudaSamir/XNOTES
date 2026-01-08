@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:xnotes_flutter/config/app_config.dart';
+import 'package:xnotes_flutter/core/config/app_config.dart';
 import 'package:xnotes_flutter/domain/server/server_communication.dart';
-import 'package:xnotes_flutter/utils/error_handler/error_handler.dart';
+import 'package:xnotes_flutter/core/utils/error_handler/error_handler.dart';
 
 /// Initialize all app dependencies
 Future<void> _initializeApp() async {

@@ -1,6 +1,6 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:xnotes_flutter/config/extensions/email_validate_extension/email_validate_extension.dart';
-import 'package:xnotes_flutter/utils/custom_exceptions.dart';
+import 'package:xnotes_flutter/core/config/extensions/email_validate_extension/email_validate_extension.dart';
+import 'package:xnotes_flutter/core/utils/app_exceptions/app_exceptions.dart';
 
 void main() {
   group('EmailValidateExtension', () {

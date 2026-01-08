@@ -1,8 +1,8 @@
 import 'package:serverpod_auth_idp_flutter/serverpod_auth_idp_flutter.dart';
 import 'package:serverpod_flutter/serverpod_flutter.dart';
 import 'package:xnotes_client/xnotes_client.dart';
-import 'package:xnotes_flutter/config/app_config.dart';
-import 'package:xnotes_flutter/utils/error_handler/error_handler.dart';
+import 'package:xnotes_flutter/core/config/app_config.dart';
+import 'package:xnotes_flutter/core/utils/error_handler/error_handler.dart';
 
 /// Manages server communication initialization and provides a singleton instance of the Serverpod client.
 ///

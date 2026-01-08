@@ -1,6 +1,6 @@
 import 'dart:developer' as developer;
 
-import 'package:xnotes_flutter/utils/custom_exceptions.dart';
+import 'package:xnotes_flutter/core/utils/app_exceptions/app_exceptions.dart';
 
 /// Concise ErrorHandler summary.
 ///

@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/services.dart';
-import 'package:xnotes_flutter/utils/error_handler/error_handler.dart';
+import 'package:xnotes_flutter/core/utils/error_handler/error_handler.dart';
 
 /// Singleton configuration manager for the app
 class AppConfig {

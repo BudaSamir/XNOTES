@@ -8,8 +8,8 @@
 /// flutter test lib/utils/error_handler/error_handler_test.dart
 /// ```
 import 'package:flutter_test/flutter_test.dart';
-import 'package:xnotes_flutter/utils/error_handler/error_handler.dart';
-import 'package:xnotes_flutter/utils/custom_exceptions.dart';
+import 'package:xnotes_flutter/core/utils/error_handler/error_handler.dart';
+import 'package:xnotes_flutter/core/utils/app_exceptions/app_exceptions.dart';
 
 void main() {
   test('handleSync returns result', () {

@@ -1,5 +1,5 @@
-import 'package:xnotes_flutter/utils/error_handler/error_handler.dart';
-import 'package:xnotes_flutter/utils/custom_exceptions.dart';
+import 'package:xnotes_flutter/core/utils/error_handler/error_handler.dart';
+import 'package:xnotes_flutter/core/utils/app_exceptions/app_exceptions.dart';
 
 /// Precompiled regex pattern for email validation.
 ///
