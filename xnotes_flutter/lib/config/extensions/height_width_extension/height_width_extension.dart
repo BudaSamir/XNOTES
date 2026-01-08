@@ -3,9 +3,9 @@ import 'package:xnotes_flutter/config/extensions/size_extension/size_extension.d
 
 extension HeightWidthExtension on BuildContext{
   SizedBox heightBox(double h) => SizedBox(
-    height: this.getSize.height * h,
+    height: getSize.height * h,
   );
   SizedBox widthBox(double w)=> SizedBox(
-    width: this.getSize.width * w,
+    width: getSize.width * w,
   );
 }
